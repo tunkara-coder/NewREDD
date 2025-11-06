@@ -1,0 +1,28 @@
+{
+  "name": "redd-transparency-platform",
+  "version": "1.0.0",
+  "description": "CONSERVATION AND RESTORATION OF THE MANGROVE ECOSYSTEM IN THE GAMBIA THROUGH THE REDD+ MECHANISM Transparency & Data Management Platform",
+  "type": "module",
+  "scripts": {
+    "dev": "vite --host 0.0.0.0",
+    "build": "vite build",
+    "preview": "vite preview --host 0.0.0.0",
+    "start": "vite preview --host 0.0.0.0 --port 10000",
+    "serve": "vite preview --host 0.0.0.0 --port 10000"
+  },
+  "dependencies": {
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-router-dom": "^6.8.0",
+    "recharts": "^2.5.0"
+  },
+  "devDependencies": {
+    "@types/react": "^18.0.27",
+    "@types/react-dom": "^18.0.10",
+    "@vitejs/plugin-react": "^4.0.0",
+    "vite": "^4.4.0"
+  },
+  "engines": {
+    "node": ">=16.0.0"
+  }
+}

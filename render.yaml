@@ -1,0 +1,23 @@
+# Render configuration file
+services:
+  - type: web
+    name: redd-gambia-platform
+    env: static
+    buildCommand: npm run build
+    staticPublishPath: ./dist
+    headers:
+      - path: /*
+        name: Content-Type
+        value: text/html
+      - path: /*.js
+        name: Content-Type
+        value: application/javascript
+      - path: /*.mjs
+        name: Content-Type
+        value: application/javascript
+      - path: /*.css
+        name: Content-Type
+        value: text/css
+      - path: /*.json
+        name: Content-Type
+        value: application/json
